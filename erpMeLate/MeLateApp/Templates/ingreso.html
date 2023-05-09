@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+    <title>Example Domain</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+
+    <style>
+        body{
+            display: flex;
+        }
+        .container{
+            position: relative;
+            text-align: center;
+
+            width: 300px;
+            height: 300px;
+        }
+
+        .container1{
+            outline:red dashed 1px;
+            position:absolute;
+            top: 50%;
+
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        .carrito_compras{
+            height: 200px;
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container1">
+            <img class="carrito_compras"src="static/imagenes/carrito-de-compras.png">
+        
+            <p>Inicio de seción</p>
+            <form action="/registro/" method="POST">
+                <lable>Username</lable>
+                <input type="text" id="User" name="User"><br><br>
+                <lable>Password</lable>
+                <input type="text" id="Password" name="Password"><br>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
